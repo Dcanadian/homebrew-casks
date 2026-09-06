@@ -1,18 +1,20 @@
-# Dgomez Casks
+# Dcanadian Casks
 
-## How do I install these formulae?
+Homebrew tap for darktable and other casks.
 
-`brew install dgomez/casks/<formula>`
+## How do I install these casks?
 
-Or `brew tap dgomez/casks` and then `brew install <formula>`.
-
-Or, in a `brew bundle` `Brewfile`:
-
-```ruby
-tap "dgomez/casks"
-brew "<formula>"
+```bash
+brew install dcanadian/casks/<cask>
 ```
 
-## Documentation
+Or tap it first:
 
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+```bash
+brew tap dcanadian/casks
+brew install <cask>
+```
+
+## Available Casks
+
+- **darktable**: Photography workflow application and raw developer (un-disabled for macOS).
